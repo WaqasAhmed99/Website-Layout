@@ -1,0 +1,38 @@
+.main{
+    margin: auto;
+    margin-top: 100px;
+    width: 50vw;
+    color: green;
+    text-align: center;
+}
+
+header, nav, footer{
+    width: 99.7%;
+    border: 2px solid black;
+    margin-bottom: 5px;
+
+}
+
+.center{
+    display: flex;
+
+}
+
+.aside1, .aside2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    border: 2px solid black;
+    height: 40vh;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 49%;
+    border: 2px solid black;
+    height: 40vh;
+    margin: 0px 6px 5px 6px;
+}
